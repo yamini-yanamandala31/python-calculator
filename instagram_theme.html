@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instagram Theme</title>
+<style>
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.pink {
+    background-color: pink;
+    color: black;
+}
+
+.blue {
+    background-color: lightblue;
+    color: black;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Instagram Theme Changer</h1>
+
+<button onclick="pinkTheme()">Pink Theme</button>
+<button onclick="blueTheme()">Blue Theme</button>
+
+<script>
+function pinkTheme() {
+    document.body.className = "pink";
+}
+
+function blueTheme() {
+    document.body.className = "blue";
+}
+</script>
+
+</body>
+</html>
